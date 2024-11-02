@@ -1,0 +1,10 @@
+from tkinter import *  
+window = Tk()  
+window.title("Добро пожаловать в приложение PythonRu")  
+lbl = Label(window, text="Привет")  
+lbl.grid(column=0, row=0)  
+lbl = Label(window, text="Хорошего дня")  
+lbl.grid(column=2, row=5)
+lbl = Label(window, text="Пока")  
+lbl.grid(column=5, row=10)
+window.mainloop()
